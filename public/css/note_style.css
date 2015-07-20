@@ -1,0 +1,172 @@
+@charset "utf-8";
+/* CSS Document */
+.main_note{
+	width:540px;
+	height:430px;
+	margin:0 auto;
+	background:#f4e6d3;
+	box-shadow: 0 0px 20px rgba(0,0,0,0.3);
+	margin:0 auto;
+	*margin-top:180px;
+	
+}
+.note_abcol{
+	position:absolute;
+	width:100%;
+	background:rgba(255,255,255,0.3);
+	display:none;
+	z-index:1000000000000000000000000000000000000000000000000000000000000000000000000000000000000000;
+	}
+.text_note{
+	font-family:Cambria;
+	font-size:30px;
+	color:#808080;
+	padding-top:10px;
+}
+.btn_note{
+	font-family:Cambria;
+	background:white;
+	color:#801e20;
+	font-size:18px;
+	border-radius:5px;
+	width:480px;
+	border:none;
+	padding:4px;
+}
+.styled-select_1{
+  width: 480px;
+  height: 29px;
+  overflow: hidden;
+  background: url(../images/button.png) no-repeat right white;
+  /*for WebKit*/
+ -webkit-appearance: none;
+ /* for FF */
+  -moz-appearance: none;
+  text-indent: 0.01px; 
+  text-overflow: '';
+  /* for IE */
+  -ms-appearance: none;
+  appearance: none!important;
+  border-radius:5px;
+  text-indent:20px;
+  color:#801e20;
+	font-size:18px;
+	font-family:Cambria;
+	border:none;
+	text-transform: uppercase;
+}
+.styled-select_2{
+  width: 480px;
+  height: 29px;
+  overflow: hidden;
+  background: url(../images/button.png) no-repeat right white;
+  /*for WebKit*/
+ -webkit-appearance: none;
+ /* for FF */
+  -moz-appearance: none;
+  text-indent: 0.01px; 
+  text-overflow: '';
+  /* for IE */
+  -ms-appearance: none;
+  appearance: none!important;
+  border-radius:5px;
+  text-indent:20px;
+  color:#801e20;
+	font-size:18px;
+	font-family:Cambria;
+	border:none;
+	text-transform: uppercase;
+}
+.styled-select_3{
+  width: 480px;
+  height: 29px;
+  overflow: hidden;
+  background: url(../images/button.png) no-repeat right white;
+  /*for WebKit*/
+ -webkit-appearance: none;
+ /* for FF */
+  -moz-appearance: none;
+  text-indent: 0.01px; 
+  text-overflow: '';
+  /* for IE */
+  -ms-appearance: none;
+  appearance: none!important;
+  border-radius:5px;
+  text-indent:20px;
+  color:#801e20;
+	font-size:18px;
+	font-family:Cambria;
+	border:none;
+	text-transform: uppercase;
+}
+.styled-select_4{
+  width: 480px;
+  height: 29px;
+  overflow: hidden;
+  background: url(../images/button.png) no-repeat right white;
+  /*for WebKit*/
+ -webkit-appearance: none;
+ /* for FF */
+  -moz-appearance: none;
+  text-indent: 0.01px; 
+  text-overflow: '';
+  /* for IE */
+  -ms-appearance: none;
+  appearance: none!important;
+  border-radius:5px;
+  text-indent:20px;
+  color:#bdbdbd;
+	font-size:18px;
+	font-family:Cambria;
+	border:none;
+}
+.btn_note_red{
+	font-family:Cambria;
+	background:#801e20;
+	color:white;
+	font-size:18px;
+	border-radius:5px;
+	width:480px;
+	border:none;
+	padding:4px;
+}
+.btn_grey{
+	font-family:Cambria;
+	background:white;
+	color:#bdbdbd;
+	font-size:18px;
+	border-radius:5px;
+	width:480px;
+	border:none;
+	padding:4px;
+}
+.marg_but{margin-top:10px;}
+.marg_but_sel{margin-top:6px;}
+.note_x{
+	font-family:"CommercialPi BT";
+	font-size:24px;
+	color:#801e20;
+	margin-top:5px;
+	margin-right:10px;
+}
+a:hover{text-decoration:none;}
+a:visited{text-decoration:none;}
+a{text-decoration:none;}
+
+
+.btn_note::-webkit-input-placeholder {color:#801e20;font-family:Cambria;text-align:center;}
+.btn_note::-moz-placeholder          {color:#801e20;font-family:Cambria;text-align:center;}
+.btn_note:-moz-placeholder           {color:#801e20;font-family:Cambria;text-align:center;}
+.btn_note:-ms-input-placeholder      {color:#801e20;font-family:Cambria;text-align:center;}
+
+.btn_grey::-webkit-input-placeholder {color:#bdbdbd;font-family:Cambria;text-align:center;}
+.btn_grey::-moz-placeholder          {color:#bdbdbd;font-family:Cambria;text-align:center;}
+.btn_grey:-moz-placeholder           {color:#bdbdbd;font-family:Cambria;text-align:center;}
+.btn_grey:-ms-input-placeholder      {color:#bdbdbd;font-family:Cambria;text-align:center;}
+
+.btn_note_red::-webkit-input-placeholder {color:white;font-family:Cambria;text-align:center;}
+.btn_note_red::-moz-placeholder          {color:white;font-family:Cambria;text-align:center;}
+.btn_note_red:-moz-placeholder           {color:white;font-family:Cambria;text-align:center;}
+.btn_note_red:-ms-input-placeholder      {color:white;font-family:Cambria;text-align:center;}
+
+

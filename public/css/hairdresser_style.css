@@ -1,0 +1,82 @@
+@charset "utf-8";
+/* CSS Document */
+.carousel-caption_t{
+	text-shadow: none;
+	width:940px;
+	bottom: 0px;
+	left: 10px;
+	padding-bottom: 0px;
+}
+.sl_text{
+	font-family:RomanD;
+	font-size:48px;
+	color:#801e20;
+	background:rgba(255,255,255,0.7);
+	height:auto;
+	padding-top:20px;
+	text-transform:uppercase;
+}
+.wrap_padding{padding:10px;}
+.backg_cont{background:#f9f2e9;}
+.row_select{height:50px;}
+.cont_shadow{box-shadow: 0px 10px 46px -30px #000000 inset;padding-bottom: 10px;}
+.left{float:left;}
+.hair-text{
+	font-family:Cambria;
+	font-size:18px;
+	color:#808080;
+	padding:10px 0 15px 240px;
+}
+.hair_select_left{
+	 width: 440px;
+  height: 30px;
+  overflow: hidden;
+  background: url(../images/button.png) no-repeat right white;
+  /*for WebKit*/
+ -webkit-appearance: none;
+ /* for FF */
+  -moz-appearance: none;
+  text-indent: 0.01px; 
+  text-overflow: '';
+  /* for IE */
+  -ms-appearance: none;
+  appearance: none!important;
+  border-radius:5px;
+  border:none;
+  color:#801e20;
+  font-size:16.8px;
+  font-family:Cambria;
+  box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.125);
+  text-indent:40px;
+    text-transform: uppercase;
+}
+
+.hair_select_right{
+	 width: 440px;
+  height: 30px;
+  overflow: hidden;
+  background: url(../images/button.png) no-repeat right white;
+  /*for WebKit*/
+ -webkit-appearance: none;
+ /* for FF */
+  -moz-appearance: none;
+  text-indent: 0.01px; 
+  text-overflow: '';
+  /* for IE */
+  -ms-appearance: none;
+  appearance: none!important;
+  border-radius:5px;
+  border:none;
+  color:#801e20;
+  font-size:16.8px;
+  font-family:Cambria;
+  box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.125);
+  text-indent:20px;
+  text-transform: uppercase;
+}
+.left_select{
+	padding:10px 0 0 10px;
+}
+.right_select{
+	padding:10px 0 0 490px;
+}

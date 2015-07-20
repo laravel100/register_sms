@@ -1,0 +1,46 @@
+@charset "utf-8";
+/* CSS Document */
+.panel-heading{
+	padding:10px 15px;
+	border:none;
+	background:rgba(244,230,211,0.8);
+	border-radius:0px;
+	font-family:Cambria;
+	color:#801e20;
+	font-size:16px;
+}
+.panel{
+	margin:0px;
+	border:none;
+	background:transparent;
+}
+.panel-body {
+	background:rgba(230,216,197,0.8);
+	font-family:Cambria;
+	color:#801e20;
+	font-size:16px
+}
+.panel-body>div>a:focus,.panel-body>div>a:hover{color:#b66f70;text-decoration:none;font-family:Cambria;font-size:16px}
+.panel-body>div>a,.panel-body>div>a{color:#801e20;font-family:Cambria;font-size:16px}
+.panel-group{
+	margin:0px;
+}
+.panel-group .panel+.panel {
+margin-top: 0px;
+}
+.dropmen {
+	display:none;
+	width:390px;
+	position:absolute;
+	z-index:100000000000
+}
+.panel-group .panel-heading+.panel-collapse>.list-group, .panel-group .panel-heading+.panel-collapse>.panel-body {
+border-top:none; }
+.panel-body {
+padding:5px;
+padding-left:30px;
+}
+.upshadow{box-shadow: 0px 23px 30px -28px #000000 inset;}
+.downshadow{box-shadow: 0px -23px 30px -25px #000000 inset;}
+.upshadow1{box-shadow: 0px 23px 30px -38px #000000 inset;}
+.downshadow1{box-shadow: 0px -23px 30px -38px #000000 inset;}

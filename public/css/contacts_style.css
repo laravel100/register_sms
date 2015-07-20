@@ -1,0 +1,91 @@
+@charset "utf-8";
+/* CSS Document */
+.carousel-caption_t{
+	text-shadow: none;
+	width:940px;
+	bottom: 0px;
+	left: 10px;
+	padding-bottom: 0px;
+}
+.sl_text{
+	font-family:RomanD;
+	font-size:48px;
+	color:#801e20;
+	background:rgba(255,255,255,0.7);
+	height:100px;
+	padding-top:20px;
+}
+.contacts_pad{padding:10px;}
+.contacts_form{
+	background:rgba(249,242,233,0.75);
+	width:235px;
+	height:430px;
+	margin-top:-430px;
+	margin-left:701px;
+	position:relative;
+	box-shadow: -13px 0px 18px -8px rgba(0,0,0,0.41);
+}
+.contacts_info{
+	box-shadow: 0px 18px 46px -30px rgba(0,0,0,0.81) inset;
+	background:rgb(249,242,233);
+	padding:45px 0 30px 0;
+}
+.info_text_1{
+	font-family:RomanD;
+	font-size:20px;
+	color:#808080;
+}
+.info_text_2{
+	font-family:RomanD;
+	font-size:20px;
+	color:#801e20;
+}
+.adres_marg{margin-top:-7px;}
+.info_marg{margin-top:10px;}
+.phone_marg{margin-top:-7px;}
+
+
+.form_text{
+	font-family:RomanD;
+	font-size:24px;
+	color:#808080;
+	padding-top:45px;
+	padding-bottom:10px;
+}
+.pad_btn_form{
+	padding-top:10px;
+	padding-bottom:10px;
+	}
+.btn_form{
+	border-radius:5px;
+	width:197px;
+	height:30px;
+	padding:0px;
+	color:#bdbdbd;
+	font-size:16px;
+	font-family:Cambria;
+}	
+.btn_form::-webkit-input-placeholder {color:#bdbdbd;font-family:Cambria;font-size:16px;}
+.btn_form::-moz-placeholder          {color:#bdbdbd;font-family:Cambria;font-size:16px;}
+.btn_form:-moz-placeholder           {color:#bdbdbd;font-family:Cambria;font-size:16px;}
+.btn_form:-ms-input-placeholder      {color:#bdbdbd;font-family:Cambria;font-size:16px;}
+.area_style{
+	border-radius:5px;
+	border:none;
+	resize: none;
+	color:#bdbdbd;
+}
+.area_style::-webkit-input-placeholder {color:#bdbdbd;font-family:Cambria;font-size:16px;text-align:center;}
+.area_style::-moz-placeholder          {color:#bdbdbd;font-family:Cambria;font-size:16px;text-align:center;}
+.area_style:-moz-placeholder           {color:#bdbdbd;font-family:Cambria;font-size:16px;text-align:center;}
+.area_style:-ms-input-placeholder      {color:#bdbdbd;font-family:Cambria;font-size:16px;text-align:center;}
+
+.btn_submit{
+	border-radius:5px;
+	width:197px;
+	height:30px;
+	padding:0px;
+	background:rgb(128,30,32);
+	margin-top:10px;
+	font-size:16px;
+}

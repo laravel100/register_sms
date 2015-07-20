@@ -1,0 +1,131 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* left menu*/
+.left_menu{
+	width:220px;
+	background:rgb(249,242,233);
+	float:left;
+	height:920px;
+}
+.wrapper_padding{
+	padding:10px;
+}
+.tog{
+	font-family:Cambria;
+	font-size:16px;
+	color:#801e20;
+	padding:2px;
+	border-radius:5px;
+	background:white;
+	width:124px;
+	margin:0 auto;
+	box-shadow: inset 0px 13px 50px -33px rgba(0,0,0,0.63);
+}
+.btn_foto{
+	float:left;
+	background:rgb(244,230,211);
+	width:60px;
+	border-radius:3px;
+}
+.btn_video{
+	float:left;
+	width:60px;
+	border-radius:3px;
+}
+a.switch:hover{color:#801e20;}
+a.switch:visited{color:#801e20;}
+a.switch{color:#801e20;}
+.lm_text_1{
+	font-family:Cambria;
+	font-size:14px;
+	color:#801e20;	
+	margin-top:20px;
+	text-transform:uppercase;
+}
+.lm_text_2{
+	font-family:Cambria;
+	font-size:14px;
+	color:#801e20;	
+	margin-top:13px;
+	background:white;
+	padding:7px;
+	box-shadow: inset 0px 0px 8px -4px rgba(0,0,0,0.5);
+	
+}
+.lm_text_3{
+	font-family:Cambria;
+	font-size:14px;
+	color:#801e20;
+}
+
+/* content*/
+
+.right_part{
+	float:left;
+	background:rgb(249,242,233);
+	margin-left:10px;
+	padding:10px;
+	padding-bottom:0px;
+}
+.right_part_v{
+	float:left;
+	background:rgb(249,242,233);
+	margin-left:10px;
+	padding:10px;
+}
+.right_text{
+	font-family:Cambria;
+	font-size:16px;
+	color:#801e20;	
+	padding:3px;
+	background:rgb(249,242,233);
+	width:679px;
+}
+.video_hid{
+	display:none;
+	width: 700px;
+}
+.hid_gal_2{display:none;}
+.carousel-caption_slide{
+	text-shadow: none;
+	width:679px;
+	bottom: 0px;
+	left: 00px;
+	padding-bottom: 0px;
+}
+.carousel-caption_t{
+	text-shadow: none;
+	width:940px;
+	bottom: 0px;
+	left: 10px;
+	padding-bottom: 0px;
+}
+.sl_text{
+	font-family:RomanD;
+	font-size:30px;
+	color:#801e20;
+	background:rgba(255,255,255,0.7);
+	height:100px;
+	padding-top:30px;
+}
+.carousel-control{
+	text-shadow:none;
+	opacity:0;
+	margin-top:200px;
+}
+.carousel-control:hover{
+	text-shadow:none;
+	opacity:1;
+	margin-top:200px;
+}	
+.carousel-control.left{background: none;background-repeat:repeat-x;color:#6e2325;}
+.carousel-control.right{background:  none;background-repeat:repeat-x;color:#6e2325;}
+.carousel-caption_close{
+	left: 640px;
+	bottom: 420px;
+	opacity:0;
+	}
+.carousel-caption_close:hover{
+	opacity:1;
+	}

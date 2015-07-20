@@ -1,0 +1,322 @@
+@charset "utf-8";
+/* CSS Document */
+.carousel-caption_t{
+	text-shadow: none;
+	width:940px;
+	bottom: 0px;
+	left: 10px;
+	padding-bottom: 0px;
+}
+.sl_text{
+	font-family:RomanD;
+	font-size:48px;
+	color:#801e20;
+	background:rgba(255,255,255,0.7);
+	height:90px;
+	padding-top:16px;
+}
+.my_cab{display:none;}
+
+/* мой кабинет */
+.own_pad{padding:10px;}
+.cont_backgound{background:rgb(249,242,233);}
+.own_head_menu{
+	height:50px;
+}
+.own_menu{
+	width:313px;
+	font-family:Cambria;
+	color:#801e20;
+	font-size:20px;
+	padding-top:10px;
+}
+.own_menu:hover{color:#801e20;}
+.bold_menu{font-weight:bold;}
+.left{float:left;}
+.own_cont_shadow{box-shadow: 0px 10px 46px -30px #000000 inset;}
+
+.own_red{
+	font-family:Cambria;
+	color:#801e20;
+	font-size:12px;
+	padding-right:10px;
+}
+.own_red:hover{
+	font-family:Cambria;
+	color:#801e20;
+	font-size:12px;
+}
+.own_red:visited{
+	font-family:Cambria;
+	color:#801e20;
+	font-size:12px;
+}
+
+.own_data{
+	font-family:Cambria;
+	color:#808080;
+	font-size:24px;
+}
+.own_left_cont{
+	width:335px;
+	font-family:Cambria;
+	color:#808080;
+	font-size:18px;
+	padding-right:5px;
+}
+.own_right_cont{
+	width:335px;
+	font-family:Cambria;
+	color:#808080;
+	font-size:18px;
+	padding-left:5px;
+}
+.btn_put_code{
+	font-family:Cambria;
+	background:white;
+	font-size:14px;
+	border-radius:5px;
+	width:200px;
+	padding:2px;
+}
+.btn_put_code::-webkit-input-placeholder {color:#bfbfbf;font-family:Cambria;}
+.btn_put_code::-moz-placeholder          {color:#bfbfbf;font-family:Cambria;}
+.btn_put_code:-moz-placeholder           {color:#bfbfbf;;font-family:Cambria;}
+.btn_put_code:-ms-input-placeholder      {color:#bfbfbf;font-family:Cambria;}
+button.btn_active_code{
+	font-family:Cambria;
+	background:white;
+	color:#801e20;
+	font-size:14px;
+	border-radius:5px;
+	width:200px;
+	padding:0px;
+	margin-top:-10px;
+}
+div.btn_load_pic{
+	font-family:Cambria;
+	background:white;
+	color:#801e20;
+	font-size:14px;
+	border-radius:5px;
+	width:200px;
+	padding:2px;
+	position:absolute;
+	margin-top:-43px;
+	margin-left:30px;
+}
+.own_pad_cont{
+	padding-bottom:30px;
+}
+.own_bottom_left{
+	width:270px;
+	height:270px;
+	background:rgb(244,230,211);
+	box-shadow: 0px 15px 46px -30px #000000 inset;
+}
+.bottom_head{
+	font-family:Cambria;
+	color:#808080;
+	font-size:24px;
+	padding-top:20px;
+	padding-bottom:20px;
+}
+.bottom_checkbox{
+	padding-left:8px;
+}
+input[type="checkbox"] {
+    position: absolute;
+    left: -9999px;
+}
+input[type="checkbox"] + label {
+    background: url(../images/memberArea/checkbox/1.png) 0 0 no-repeat;
+    padding-left: 20px;
+}
+input[type="checkbox"]:checked + label {
+    background: url(../images/memberArea/checkbox/2.png) 0 0 no-repeat;
+    padding-left: 20px;
+}
+label{
+	font-family:Cambria;
+	color:#808080;
+	font-size:12px;
+	font-weight:normal;
+	margin-left:-5px;
+}
+.label{
+	font-family:Cambria;
+	color:#808080;
+	font-size:12px;
+	font-weight:normal;
+}
+.btn_put_day{
+	*margin-left:5px;
+	margin-right:0px;
+	background:white;
+	border-radius:3px;
+	width:22px;
+	height:16px;
+	padding:0px;
+	color:#801e20;
+	font-size:12px;
+	font-family:Cambria;
+}
+.btn_put_day::-webkit-input-placeholder {color:#801e20;font-family:Cambria;font-size:12px;}
+.btn_put_day::-moz-placeholder          {color:#801e20;font-family:Cambria;font-size:12px;}
+.btn_put_day:-moz-placeholder           {color:#801e20;font-family:Cambria;font-size:12px;}
+.btn_put_day:-ms-input-placeholder      {color:#801e20;font-family:Cambria;font-size:12px;}	
+
+
+.bottom-select_1{
+  width: 480px;
+  height: 29px;
+  overflow: hidden;
+  background: url(../images/button.png) no-repeat right white;
+  /*for WebKit*/
+ -webkit-appearance: none;
+ /* for FF */
+  -moz-appearance: none;
+  text-indent: 0.01px; 
+  text-overflow: '';
+  /* for IE */
+  -ms-appearance: none;
+  appearance: none!important;
+  border-radius:5px;
+  text-indent:150px;
+  color:#801e20;
+	font-size:18px;
+	font-family:Cambria;
+	border:none;
+}
+.bottom-select_2{
+  width: 480px;
+  height: 29px;
+  overflow: hidden;
+  background: url(.../images/button.png) no-repeat right white;
+  /*for WebKit*/
+ -webkit-appearance: none;
+ /* for FF */
+  -moz-appearance: none;
+  text-indent: 0.01px; 
+  text-overflow: '';
+  /* for IE */
+  -ms-appearance: none;
+  appearance: none!important;
+  border-radius:5px;
+  text-indent:55px;
+  color:#801e20;
+	font-size:18px;
+	font-family:Cambria;
+	border:none;
+}
+.bottom-select_3{
+  width: 480px;
+  height: 29px;
+  overflow: hidden;
+  background: url(../images/button.png) no-repeat right white;
+  /*for WebKit*/
+ -webkit-appearance: none;
+ /* for FF */
+  -moz-appearance: none;
+  text-indent: 0.01px; 
+  text-overflow: '';
+  /* for IE */
+  -ms-appearance: none;
+  appearance: none!important;
+  border-radius:5px;
+  text-indent:20px;
+  color:#801e20;
+	font-size:18px;
+	font-family:Cambria;
+	border:none;
+}
+.bottom_text_1{
+	font-family:Cambria;
+	color:#808080;
+	font-size:36px;
+}
+.bottom_text_2{
+	font-family:Cambria;
+	color:#808080;
+	font-size:20px;
+}
+.note_for_select{
+	width:150px;
+	padding-top:10px;
+}
+.block_of_select{
+	padding-left:440px;
+	padding-top:20px;
+}
+.select_1{
+	padding-top:10px;
+}
+
+/* мой курсы */
+
+.pad_con_courses{padding:10px;}
+.courses_block{
+	width:300px;
+	height:48px;
+	background:#f4e6d3;
+	font-family:Cambria;
+	color:#801e20;
+	font-size:14px;
+	padding-top:5px;
+	text-transform:uppercase;
+	overflow:hidden;
+}
+.courses_block_pad{
+	margin:0 10px 0 10px;
+}
+.courses_school{
+	height:150px;
+	width:300px;
+	background:#f4e6d3;
+	box-shadow: 0px 10px 46px -30px #000000 inset;
+	padding-top:15px;
+}
+.courses_school_text_1{
+	font-family:Cambria;
+	color:#801e20;
+	font-size:14px;
+	padding-bottom:5px;
+	text-transform:uppercase;
+}
+.courses_school_text_2{
+	font-family:Cambria;
+	color:#808080;
+	font-size:14px;
+	padding-bottom:5px;
+}
+.courses_school_text_1:hover{color:#801e20;}
+.courses_school_text_1:visited{color:#801e20;text-decoration:none;}
+.courses_time{
+	width:300px;
+	height:127px;
+	box-shadow: 0px 10px 46px -30px #000000 inset;
+	background:#f4e6d3;
+	padding-top:15px;
+	*display:none;
+	visibility:hidden;
+}
+.courses_height{
+	height:540px;
+}
+	
+/* мой блог */	
+	
+button.btn_add_new{
+	font-family:Cambria;
+	background:white;
+	color:#801e20;
+	font-size:18px;
+	border-radius:5px;
+	width:480px;
+	padding:2px;
+}
+.zagtable {
+  font-size: 21px;
+  color: rgb(128,30,32);
+  text-align: center;
+}

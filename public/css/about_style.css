@@ -1,0 +1,65 @@
+@charset "utf-8";
+/* CSS Document */
+.wrap_about_pad{padding:0 10px 250px 10px;}
+.about_block{
+	position:relative;
+	width:306.6666px;
+	
+	float:left
+}
+.about_block_pad{
+	margin-left:10px;
+	margin-right:10px;
+}
+.white_opacity{
+	font-family:Cambria;
+	color:#808080;
+	font-size:30px;
+	height:90px;
+	background:rgba(255,255,255,0.7);
+	padding-top:25px;
+	margin-top:-90px;
+}
+.about_content{
+	background:#f9f2e9;
+	font-family:Cambria;
+	font-size:16px;
+	padding:10px 10px 30px 10px;
+	word-wrap: break-word;
+}
+.about_content_0{
+	background:#f9f2e9;
+	font-family:Cambria;
+	font-size:16px;
+	padding:10px 10px 51px 10px;
+	word-wrap: break-word;
+}
+.about_content_1{
+	background:#f9f2e9;
+	font-family:Cambria;
+	font-size:16px;
+	color:#808080;
+	padding-bottom:28px;
+	word-wrap: break-word;
+}
+.about_text_1{
+	color:#808080;
+}
+.about_text_2{
+	color:#801e20;
+}
+.about_text_2:hover{
+	color:#801e20;
+}
+.about_text_2:visited{
+	color:#801e20;
+}
+.about_bold_text{font-weight:bold;}
+.about_text_ul{
+	color:#808080;
+}
+.about_text_pad{padding-top:10px;}
+.about_school{margin-top:-5px;}
+.margin_avenu{padding-top:25px;}
+.margin_phone{padding-top:10px;}
+.padding_footer{padding-top:660px;}

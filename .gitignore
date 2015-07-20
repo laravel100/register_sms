@@ -1,0 +1,11 @@
+/vendor
+/node_modules
+/bootstrap
+/tests
+.env
+server.php
+readme.md
+phpunit.xml
+phpspec.yml
+package.json
+gulpfile.js

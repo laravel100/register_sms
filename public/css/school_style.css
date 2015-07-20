@@ -1,0 +1,124 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+/* slider */
+.slider_text{
+	font-family:RomanD;
+	color:#801e20;
+	padding-bottom:100px;
+}
+.slifder_sc{font-size:70px;}
+.slifder_ma{font-size:51px;}
+.carousel-caption-sc{margin:0 auto;}
+
+
+/* corusel */
+.corusel_w{padding-bottom:15px;}
+.corusel_t1{
+	font-size: 24px;
+	font-family:Cambria;
+	color:#801e20;
+	padding-top:30px;
+}
+.corusel_t2{
+	font-size: 24px;
+	font-family:Cambria;
+	color:#801e20;
+	padding-top:15px;
+}
+button.corusel{
+	font-family:Cambria;
+	background:white;
+	color:#6e2325;
+	font-size:16px;
+	border-radius:9px;
+	width:84%;
+	padding:2px;
+}
+
+
+/* comments */
+.news_w{height:260px;}
+.news_w>div:nth-child(2){
+width:48%;
+}
+.news_w2{height:80px;}
+.news{
+	color:#808080;
+	font-family:Cambria;
+	padding-left:10px;
+}
+@media screen and (min-width: 10px){
+.news_t1{	
+	font-size:45px;
+}
+}
+@media screen and (min-width: 1000px){
+.news_t1{	
+	font-size:51px;
+}
+}
+.news_t2{	
+	font-size:18px;
+}
+
+
+
+.slider_p{padding-left:7px;padding-top:16px;overflow: hidden;margin-right:10px;}
+.carousel-control{
+	position:relative;
+	color:#6e2325;
+	background:white;
+	text-shadow:none;
+	opacity:1;
+}	
+.carousel-control.left{background-image:none;background-repeat:repeat-x;color:#6e2325;}
+.carousel-control.right{background-image:none;background-repeat:repeat-x;color:#6e2325;float: right; right:-20px;}
+@media screen and (min-width: 10px){
+.slider_t2{
+	padding:0px;
+	padding-left:0px;
+	padding-right:0px;	
+	font-size:10px;
+}
+}
+@media screen and (min-width: 1000px){
+.slider_t2{
+	padding:5px 14px 14px 14px;
+	padding-left:0px;
+	padding-right:13px;	
+	font-size:14px;
+}
+}
+@media screen and (min-width: 10px){
+.slider_t3{
+	padding:0px;
+	padding-right:0px;	
+	font-size:10px;
+}
+}
+@media screen and (min-width: 1000px){
+.slider_t3{
+	padding:0px;
+	padding-right:10px;	
+	font-size:14px;
+}
+}
+.slider_t{
+    position:absolute;
+	left:30px;
+	bottom:-38px;
+	color:#808080;
+	font-family:Cambria;
+}
+.slider_t1{
+	color:#808080;
+	font-family:Cambria;
+}
+#carousel>.carousel-inner>.item>img{
+height:200px;
+}
+.carousel-inner{
+overflow: visible;
+}	
